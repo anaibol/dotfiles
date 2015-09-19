@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+
+<menu id="root-menu" label="Openbox 3">
+ <menu id="Accessories" label="Accessories" icon="/usr/share/icons/gnome/16x16/categories/gnome-util.png">
+      <item label="Application Finder" icon="/usr/share/icons/gnome/16x16/actions/gtk-find.png">
+       <action name="Execute"><execute>xfce4-appfinder</execute></action>
+     </item>
+      <item label="Files" icon="/usr/share/icons/gnome/16x16/apps/system-file-manager.png">
+       <action name="Execute"><execute>nautilus --new-window </execute></action>
+     </item>
+      <item label="Mousepad" icon="/usr/share/icons/gnome/16x16/apps/accessories-text-editor.png">
+       <action name="Execute"><execute>mousepad </execute></action>
+     </item>
+      <item label="Orage Globaltime" icon="/usr/share/icons/hicolor/48x48/apps/orage_globaltime.png">
+       <action name="Execute"><execute>globaltime</execute></action>
+     </item>
+      <item label="Plank" icon="/usr/share/icons/hicolor/16x16/apps/plank.svg">
+       <action name="Execute"><execute>plank</execute></action>
+     </item>
+      <item label="Redshift GUI" icon="/usr/share/icons/hicolor/16x16/apps/redshiftgui.png">
+       <action name="Execute"><execute>redshiftgui</execute></action>
+     </item>
+      <item label="Root Terminal" icon="/usr/share/pixmaps/gksu-root-terminal.png">
+       <action name="Execute"><execute>gksu -l gnome-terminal</execute></action>
+     </item>
+      <item label="Screenlets">
+       <action name="Execute"><execute>screenlets-manager > /dev/null</execute></action>
+     </item>
+      <item label="Screenshot" icon="/usr/share/icons/hicolor/48x48/apps/applets-screenshooter.png">
+       <action name="Execute"><execute>xfce4-screenshooter</execute></action>
+     </item>
+      <item label="Solaar">
+       <action name="Execute"><execute>solaar</execute></action>
+     </item>
+      <item label="Xarchiver" icon="/usr/share/icons/hicolor/16x16/apps/xarchiver.png">
+       <action name="Execute"><execute>xarchiver</execute></action>
+     </item>
+      <item label="Xfburn" icon="/usr/share/icons/gnome/16x16/devices/media-cdrom.png">
+       <action name="Execute"><execute>xfburn</execute></action>
+     </item>
+      <item label="compton">
+       <action name="Execute"><execute>compton</execute></action>
+     </item>
+ </menu> <!-- Accessories -->
+ <menu id="Games" label="Games" icon="/usr/share/icons/gnome/16x16/categories/gnome-joystick.png">
+      <item label="PlayOnLinux" icon="///usr/share/playonlinux/etc/playonlinux.png">
+       <action name="Execute"><execute>playonlinux</execute></action>
+     </item>
+      <item label="Steam" icon="/usr/share/icons/hicolor/16x16/apps/steam.png">
+       <action name="Execute"><execute>/usr/bin/steam </execute></action>
+     </item>
+ </menu> <!-- Games -->
+ <menu id="Graphics" label="Graphics" icon="/usr/share/icons/gnome/16x16/categories/gnome-graphics.png">
+      <item label="FontForge" icon="/usr/share/icons/hicolor/16x16/apps/fontforge.png">
+       <action name="Execute"><execute>fontforge </execute></action>
+     </item>
+      <item label="GNU Image Manipulation Program" icon="/usr/share/icons/hicolor/16x16/apps/gimp.png">
+       <action name="Execute"><execute>gimp-2.8 </execute></action>
+     </item>
+      <item label="Ristretto Image Viewer" icon="/usr/share/icons/hicolor/16x16/apps/ristretto.png">
+       <action name="Execute"><execute>ristretto </execute></action>
+     </item>
+ </menu> <!-- Graphics -->
+ <menu id="Internet" label="Internet" icon="/usr/share/icons/gnome/16x16/categories/gnome-globe.png">
+      <item label="Avahi SSH Server Browser" icon="/usr/share/icons/gnome/16x16/devices/network-wired.png">
+       <action name="Execute"><execute>/usr/bin/bssh</execute></action>
+     </item>
+      <item label="Avahi VNC Server Browser" icon="/usr/share/icons/gnome/16x16/devices/network-wired.png">
+       <action name="Execute"><execute>/usr/bin/bvnc</execute></action>
+     </item>
+      <item label="FileZilla" icon="/usr/share/icons/hicolor/16x16/apps/filezilla.png">
+       <action name="Execute"><execute>filezilla</execute></action>
+     </item>
+      <item label="Firefox" icon="/usr/share/icons/hicolor/16x16/apps/firefox.png">
+       <action name="Execute"><execute>firefox </execute></action>
+     </item>
+      <item label="Google Chrome" icon="/usr/share/icons/hicolor/16x16/apps/google-chrome.png">
+       <action name="Execute"><execute>/usr/bin/google-chrome-stable </execute></action>
+     </item>
+      <item label="Google Chrome (unstable)" icon="/usr/share/icons/hicolor/16x16/apps/google-chrome-unstable.png">
+       <action name="Execute"><execute>/usr/bin/google-chrome-unstable </execute></action>
+     </item>
+      <item label="Popcorn Time" icon="/usr/share/pixmaps/popcorntime.png">
+       <action name="Execute"><execute>popcorntime </execute></action>
+     </item>
+      <item label="Skype" icon="/usr/share/icons/hicolor/16x16/apps/skype.png">
+       <action name="Execute"><execute>skype </execute></action>
+     </item>
+      <item label="Steam" icon="/usr/share/icons/hicolor/16x16/apps/steam.png">
+       <action name="Execute"><execute>/usr/bin/steam </execute></action>
+     </item>
+      <item label="Transmission" icon="/usr/share/icons/hicolor/16x16/apps/transmission.png">
+       <action name="Execute"><execute>transmission-gtk </execute></action>
+     </item>
+      <item label="Wicd" icon="/usr/share/icons/hicolor/16x16/apps/wicd-gtk.png">
+       <action name="Execute"><execute>/usr/bin/wicd-client</execute></action>
+     </item>
+ </menu> <!-- Internet -->
+ <menu id="Office" label="Office" icon="/usr/share/icons/gnome/16x16/categories/gnome-applications.png">
+      <item label="AbiWord" icon="/usr/share/icons/hicolor/16x16/apps/abiword.png">
+       <action name="Execute"><execute>abiword </execute></action>
+     </item>
+      <item label="Dictionary">
+       <action name="Execute"><execute>xfce4-dict</execute></action>
+     </item>
+      <item label="Orage Calendar" icon="/usr/share/icons/hicolor/48x48/apps/xfcalendar.png">
+       <action name="Execute"><execute>orage</execute></action>
+     </item>
+      <item label="Orage Globaltime" icon="/usr/share/icons/hicolor/48x48/apps/orage_globaltime.png">
+       <action name="Execute"><execute>globaltime</execute></action>
+     </item>
+ </menu> <!-- Office -->
+ <menu id="Programming" label="Programming" icon="/usr/share/icons/gnome/16x16/categories/gnome-devel.png">
+      <item label="Android SDK" icon="/usr/share/pixmaps/android-sdk.png">
+       <action name="Execute"><execute>android</execute></action>
+     </item>
+      <item label="Brackets" icon="/usr/share/icons/hicolor/32x32/apps/brackets.png">
+       <action name="Execute"><execute>/opt/brackets/brackets </execute></action>
+     </item>
+      <item label="CMake" icon="/usr/share/icons/hicolor/32x32/apps/CMakeSetup.png">
+       <action name="Execute"><execute>cmake-gui </execute></action>
+     </item>
+      <item label="Emacs" icon="/usr/share/icons/hicolor/16x16/apps/emacs.png">
+       <action name="Execute"><execute>emacs </execute></action>
+     </item>
+      <item label="Genymotion" icon="///opt/genymotion/icons/icon.png">
+       <action name="Execute"><execute>/usr/bin/genymotion</execute></action>
+     </item>
+      <item label="Qt4 Assistant " icon="/usr/share/icons/hicolor/32x32/apps/assistant-qt4.png">
+       <action name="Execute"><execute>assistant-qt4</execute></action>
+     </item>
+      <item label="Qt4 Designer" icon="/usr/share/icons/hicolor/128x128/apps/designer-qt4.png">
+       <action name="Execute"><execute>designer-qt4</execute></action>
+     </item>
+      <item label="Qt4 Linguist " icon="/usr/share/icons/hicolor/16x16/apps/linguist-qt4.png">
+       <action name="Execute"><execute>linguist-qt4</execute></action>
+     </item>
+      <item label="Qt4 QDbusViewer " icon="/usr/share/icons/hicolor/32x32/apps/qdbusviewer-qt4.png">
+       <action name="Execute"><execute>qdbusviewer-qt4</execute></action>
+     </item>
+      <item label="Sublime Text 3 Dev" icon="/usr/share/icons/hicolor/16x16/apps/sublime-text.png">
+       <action name="Execute"><execute>subl3 </execute></action>
+     </item>
+ </menu> <!-- Programming -->
+ <menu id="Sound &amp; Video" label="Sound &amp; Video" icon="/usr/share/icons/gnome/16x16/categories/gnome-multimedia.png">
+      <item label="Audio Mixer" icon="/usr/share/icons/gnome/16x16/apps/multimedia-volume-control.png">
+       <action name="Execute"><execute>xfce4-mixer</execute></action>
+     </item>
+      <item label="FFADO Mixer" icon="/usr/share/pixmaps/ffado.png">
+       <action name="Execute"><execute>ffado-mixer</execute></action>
+     </item>
+      <item label="Qt V4L2 test Utility" icon="/usr/share/icons/hicolor/16x16/apps/qv4l2.png">
+       <action name="Execute"><execute>qv4l2</execute></action>
+     </item>
+      <item label="Spotify" icon="/usr/share/icons/hicolor/16x16/apps/spotify-client.png">
+       <action name="Execute"><execute>spotify </execute></action>
+     </item>
+      <item label="Xfburn" icon="/usr/share/icons/gnome/16x16/devices/media-cdrom.png">
+       <action name="Execute"><execute>xfburn</execute></action>
+     </item>
+ </menu> <!-- Sound & Video -->
+ <menu id="System Tools" label="System Tools" icon="/usr/share/icons/gnome/16x16/categories/gnome-system.png">
+      <item label="Avahi Zeroconf Browser" icon="/usr/share/icons/gnome/16x16/devices/network-wired.png">
+       <action name="Execute"><execute>/usr/bin/avahi-discover</execute></action>
+     </item>
+      <item label="File Manager PCManFM" icon="/usr/share/icons/gnome/16x16/apps/system-file-manager.png">
+       <action name="Execute"><execute>pcmanfm </execute></action>
+     </item>
+      <item label="Guake Terminal" icon="/usr/share/icons/hicolor/16x16/apps/guake.png">
+       <action name="Execute"><execute>guake</execute></action>
+     </item>
+      <item label="Htop" icon="/usr/share/pixmaps/htop.png">
+       <action name="Execute"><execute>xterm -e htop</execute></action>
+     </item>
+      <item label="Oracle VM VirtualBox" icon="/usr/share/icons/hicolor/16x16/mimetypes/virtualbox.png">
+       <action name="Execute"><execute>VirtualBox </execute></action>
+     </item>
+      <item label="Sensor Viewer" icon="/usr/share/icons/hicolor/24x24/apps/xfce-sensors.png">
+       <action name="Execute"><execute>xfce4-sensors</execute></action>
+     </item>
+      <item label="Task Manager" icon="/usr/share/icons/gnome/16x16/apps/utilities-system-monitor.png">
+       <action name="Execute"><execute>xfce4-taskmanager</execute></action>
+     </item>
+      <item label="UXTerm" icon="/usr/share/pixmaps/xterm-color_48x48.xpm">
+       <action name="Execute"><execute>uxterm</execute></action>
+     </item>
+      <item label="XTerm" icon="/usr/share/pixmaps/xterm-color_48x48.xpm">
+       <action name="Execute"><execute>xterm</execute></action>
+     </item>
+ </menu> <!-- System Tools -->
+
+</menu>
+
+</openbox_menu>

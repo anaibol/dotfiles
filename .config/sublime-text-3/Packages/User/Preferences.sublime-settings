@@ -1,0 +1,53 @@
+{
+	"afn_use_project_root": true,
+	"auto_indent": true,
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"dictionary": "Packages/Language - English/en_US.dic",
+	"dpi_scale": 2.0,
+	"draw_minimap_border": true,
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"fallback_encoding": "UTF-8",
+	"font_face": "Source Code Pro",
+	"font_size": 12,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Bracketeer",
+		"CSS Completions",
+		"CSS Extended Completions",
+		"CSScomb",
+		"DictionaryAutoComplete",
+		"JavaScript & NodeJS Snippets",
+		"JavaScript Snippets",
+		"SFTP",
+		"SublimeEnhancedUtilitiesSet",
+		"SyncedSidebarBg",
+		"tern_for_sublime",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"indent_to_bracket": false,
+	"margin": 0,
+	"overlay_scroll_bars": "enabled",
+	"rulers":
+	[
+		80
+	],
+	"shift_tab_unindent": true,
+	"smart_indent": true,
+	"soda_folder_icons": true,
+	"tab_size": 2,
+	"theme": "Spacegray.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"wide_caret": true
+}

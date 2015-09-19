@@ -1,0 +1,13 @@
+#xset -b
+#conky &
+guake &
+snitrogen --restore &
+#feh --randomize --bg-fill ~/Wallpapers/* -r &
+tint2 &
+shutter &
+volumeicon &
+gpick &
+# redshift-gtk &
+compton -b --config $HOME/.config/compton.conf &
+xfce4-power-manager &
+google-chrome-unstable  --no-startup-window &
