@@ -1,2 +1,2 @@
-# arch-config
-My configuration of Arch Linux
+# dotfiles
+My Arch Linux dot and config files
