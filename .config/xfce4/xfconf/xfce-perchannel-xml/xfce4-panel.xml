@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=8;x=1600;y=1771"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="false"/>
+      <property name="size" type="uint" value="56"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="17"/>
+        <value type="int" value="4"/>
+        <value type="int" value="3"/>
+        <value type="int" value="42"/>
+        <value type="int" value="12"/>
+        <value type="int" value="6"/>
+        <value type="int" value="5"/>
+        <value type="int" value="2"/>
+        <value type="int" value="41"/>
+        <value type="int" value="20"/>
+        <value type="int" value="19"/>
+        <value type="int" value="16"/>
+        <value type="int" value="27"/>
+        <value type="int" value="18"/>
+      </property>
+      <property name="disable-struts" type="bool" value="false"/>
+      <property name="background-style" type="uint" value="0"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="applicationsmenu">
+      <property name="show-generic-names" type="bool" value="false"/>
+      <property name="show-menu-icons" type="bool" value="true"/>
+      <property name="show-button-title" type="bool" value="false"/>
+      <property name="show-tooltips" type="bool" value="false"/>
+      <property name="button-icon" type="string" value="xfce4-whiskermenu"/>
+    </property>
+    <property name="plugin-3" type="string" value="tasklist">
+      <property name="show-labels" type="bool" value="false"/>
+      <property name="flat-buttons" type="bool" value="false"/>
+      <property name="show-handle" type="bool" value="true"/>
+      <property name="sort-order" type="uint" value="1"/>
+      <property name="switch-workspace-on-unminimize" type="bool" value="true"/>
+      <property name="window-scrolling" type="bool" value="false"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="size-max" type="uint" value="64"/>
+      <property name="names-visible" type="array">
+        <value type="string" value="thunar"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="redshift-gtk"/>
+        <value type="string" value="google-chrome-unstable"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="task manager"/>
+        <value type="string" value="guake"/>
+        <value type="string" value="skype"/>
+        <value type="string" value="volumeicon"/>
+        <value type="string" value="orage"/>
+        <value type="string" value="synapse"/>
+        <value type="string" value="shutter"/>
+        <value type="string" value="blueman-applet"/>
+        <value type="string" value="electron"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="gpick"/>
+        <value type="string" value="insync.py"/>
+        <value type="string" value="stremio-runtime"/>
+        <value type="string" value="slack"/>
+      </property>
+    </property>
+    <property name="plugin-2" type="string" value="power-manager-plugin"/>
+    <property name="plugin-4" type="string" value="launcher"/>
+    <property name="plugin-16" type="string" value="diskperf"/>
+    <property name="plugin-17" type="string" value="directorymenu">
+      <property name="base-directory" type="string" value="/home/anaibol"/>
+    </property>
+    <property name="plugin-18" type="string" value="datetime"/>
+    <property name="plugin-19" type="string" value="cpugraph"/>
+    <property name="plugin-20" type="string" value="netload"/>
+    <property name="plugin-5" type="string" value="xfce4-clipman-plugin"/>
+    <property name="plugin-27" type="string" value="systemload"/>
+    <property name="plugin-41" type="string" value="battery"/>
+    <property name="plugin-42" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-12" type="string" value="weather"/>
+  </property>
+</channel>

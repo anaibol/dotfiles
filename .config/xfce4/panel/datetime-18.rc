@@ -1,0 +1,6 @@
+layout=1
+date_font=Source Sans Pro 9
+time_font=Source Sans Pro 12
+date_format=%a %d %b
+time_format=%H:%M
+
