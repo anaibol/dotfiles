@@ -233,7 +233,7 @@
           <enabled>true</enabled>
           <name>Text editor</name>
         </startupnotify>
-        <command>subl3</command>
+        <command>atom</command>
       </action>
     </keybind>
     <keybind key="W-x">
@@ -314,7 +314,7 @@
           <enabled>true</enabled>
           <name>Launcher</name>
         </startupnotify>
-        <command>dmenu -fn '-misc-fixed-*-*-*-*-13-100-*-*-*-*-*-*' -nb '#000000' -nf '#FFFFFF' -sb '#458ad3' -sf '#EEEEEE'</command>
+        <command>dmenu-launch</command>
       </action>
     </keybind>
     <keybind key="W-b">
