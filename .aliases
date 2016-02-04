@@ -1,6 +1,8 @@
 alias zshconfig="$EDITOR ~/.zshrc"
 alias ohmyzsh="$EDITOR ~/.oh-my-zsh"
 
+alias ls "ls -A"
+
 # alias udb='sudo updatedb'
 # alias ls='ls -FGa --color=auto'
 
