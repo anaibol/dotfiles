@@ -49,12 +49,30 @@ ZSH_THEME="arrow"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-notify)
+plugins=(git zsh-notify zsh-history-substring-search zsh-syntax-highlighting)
 
 # User configuration
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
+
+export NODE_ENV=development
+
+export NPM_PACKAGES="${HOME}/.npm-packages"
+export NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
+
+export PATH="$NPM_PACKAGES/bin:$PATH"
+
+# # set PATH so it includes user's private bin if it exists
+# if [ -d "$HOME/.bin" ] ; then
+#     PATH="$HOME/.bin:$PATH"
+# fi
+# # set PATH so it includes Android SDK if it exists
+# if [ -d "$HOME/AndroidSDK/tools" ] ; then
+#     PATH="$HOME/AndroidSDK/tools:$PATH"
+# fi
+
+# export PATH
 
 source $ZSH/oh-my-zsh.sh
 
@@ -118,24 +136,6 @@ export QT_DEVICE_PIXEL_RATIO=2
 # # export DOCKER_TLS_VERIFY=1
 # export DOCKER_HOST_VAGRANT_FILE=$HOME/workspace/zg-boot2docker/Vagrantfile
 # export DOCKER_HOST_VAGRANT_NAME="zg-docker-host"
-
-export NODE_ENV=development
-
-export NPM_PACKAGES="${HOME}/.npm-packages"
-export NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
-
-export PATH="$NPM_PACKAGES/bin:$PATH"
-
-# # set PATH so it includes user's private bin if it exists
-# if [ -d "$HOME/.bin" ] ; then
-#     PATH="$HOME/.bin:$PATH"
-# fi
-# # set PATH so it includes Android SDK if it exists
-# if [ -d "$HOME/AndroidSDK/tools" ] ; then
-#     PATH="$HOME/AndroidSDK/tools:$PATH"
-# fi
-
-# export PATH
 
 export HISTCONTROL=ignoredups:erasedups
 export HISTSIZE=500000
