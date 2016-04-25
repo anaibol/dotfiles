@@ -2,12 +2,13 @@
 #conky &
 guake &
 snitrogen --restore &
-#feh --randomize --bg-fill ~/Wallpapers/* -r &
-tint2 &
-shutter &
+feh --randomize --bg-fill ~/Wallpapers/* -r &
+#tint2 &
+xfce4-panel &
 volumeicon &
 gpick &
-# redshift-gtk &
+redshift-gtk &
 compton -b --config $HOME/.config/compton.conf &
 xfce4-power-manager &
 google-chrome-unstable  --no-startup-window &
+shutter &
